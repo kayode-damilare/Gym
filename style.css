@@ -1,0 +1,745 @@
+/* MOBILE VIEW */
+
+@media (max-width: 799px) {
+  *{
+    padding: 0%;
+    margin: 0%;
+  }
+
+
+  header {
+  background-color: rgb(233, 236, 255);
+  padding: 20px;
+  border-bottom: 2px solid #000;
+  position: relative; /* Allows absolute positioning for the dropdown */
+}
+
+/* Hide navigation by default on mobile */
+.nav {
+  display: none; 
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background-color: rgb(233, 236, 255);
+  border-bottom: 2px solid #000;
+  z-index: 1000;
+}
+
+/* Class toggled by JavaScript */
+.nav.active {
+  display: block;
+}
+
+/* Mobile dropdown link styles */
+.nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav ul li {
+  border-top: 1px solid #000;
+}
+
+.nav ul li a {
+  display: block;
+  padding: 18px 20px;
+  color: #000;
+  text-decoration: none;
+  font-family: 'Anek Tamil', sans-serif;
+  font-weight: 500;
+  font-size: 25px;
+}
+.color{
+  background-color: rgb(128, 141, 253);
+}
+
+
+
+  header{
+  background-color: rgb(233, 236, 255);
+  padding: 20px;
+  border-bottom: 2px solid;
+  position: sticky;
+  top: 0;
+}
+.head{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+.nav{
+  display: none;
+}
+body{
+  background-color: rgb(233, 236, 255);
+}
+strong{
+  color: rgb(128, 141, 253);
+}
+.join{
+  padding: 20px;
+}
+.head1{
+  background-color: white;
+  padding: 20px;
+}
+.grid1 img{
+  width: 100%;
+  border-top: 2px solid;
+}
+.grid2 img{
+  width: 100%;
+}
+.grid3 img{
+  width: 100%;
+}
+.grid1 h2, p{
+  padding: 20px;
+}
+.about{
+  margin-left: 20px;
+  margin-bottom: 30px;
+  padding: 15px;
+  border: none;
+  background: none;
+}
+.about:hover{
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+}
+.grid4{
+  background-color: rgb(128, 140, 253);
+  text-align: center;
+  padding: 18%;
+}
+h1, h2, p{
+  padding: 20px;
+}
+.view{
+  background: none;
+  border: none;
+  padding: 10px;
+  margin: 30px;
+  width: 90%;
+  
+}
+.view:hover{
+  background-color: black;
+  color: white;
+  border-radius: 7px;
+}
+.reserve{
+  padding: 10px;
+  border-radius: 7px;
+  border: none;
+}
+.reserve:hover{
+  background-color: black;
+  color: white;
+}
+footer img{
+  width: 200px;
+}
+
+.footer-content {
+    padding: 20px;
+    text-align: left;
+}
+
+.footer-content h2,
+.footer-content p {
+    padding: 10px;
+    margin: 0;
+}
+.socials a{
+  padding: 0 10px;
+  display: flex;
+}
+.opening{
+  padding: 10px;
+}
+#btn1{
+  background:none; 
+  border:none; 
+  cursor:pointer; 
+  font-size:24px;
+}
+.join{
+  background-color: white;
+  text-align: center;
+  font-family: 'Anek Tamil';
+}
+
+/* Fonts */
+.head1{
+  font-family: 'Anek Tamil';
+  font-weight: 900;
+  font-size: 40px;
+}
+.grid1 h2{
+  font-family: 'Anek Tamil';
+  font-weight: 900;
+}
+p{
+  font-family: 'Anek Tamil';
+}
+h2{
+  font-family: 'Anek Tamil';
+  font-size: 30px;
+}
+.join{
+   font-size: 40px;
+   font-weight: 700;
+}
+.footer-content{
+  font-family: 'Anek Tamil';
+}
+.contact,
+.con{
+  font-weight: 700;
+}
+}
+
+/* TABLET VIEW */
+
+@media (min-width: 800px) {
+  *{
+    padding: 0%;
+    margin: 0%;
+  }
+  hr{
+    display: none;
+  }
+
+.nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul{
+  list-style: none;
+  display: flex;
+}
+ul li{
+  padding: 20px;
+}
+ul li a{
+  text-decoration: none;
+  color: #000;
+}
+.plain{
+  transition: 0.5s ease;
+  color: #000;
+  font-weight: 500;
+}
+.plain a:hover{
+  color: rgb(130, 129, 129);
+}
+
+.color{
+  background-color: rgb(128, 141, 253);
+  border-radius: 8px;
+}
+
+.color:hover{
+  background-color: #000;
+  color: white;
+}
+.color a:hover{
+  color: white;
+}
+
+  header{
+  background-color: rgb(233, 236, 255);
+  padding: 20px;
+  border-bottom: 2px solid;
+  position: sticky;
+  top: 0;
+}
+.head{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+body{
+  background-color: rgb(233, 236, 255);
+}
+strong{
+  color: rgb(128, 141, 253);
+}
+.join{
+  padding: 20px;
+}
+.head1{
+  background-color: white;
+  padding: 20px;
+}
+.grid1 img{
+  width: 50%;
+  border-top: 2px solid;
+}
+.grid2 img{
+  width: 40%;
+}
+.grid3 img{
+  width: 50%;
+}
+.grid1 h2, p{
+  padding: 20px;
+}
+.about{
+  margin-left: 20px;
+  margin-bottom: 30px;
+  padding: 15px;
+  border: none;
+  background: none;
+}
+.about:hover{
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+}
+
+.grid1{
+  display: flex;
+  flex-direction: row;
+  min-height: 500px;
+  border-top: 1px solid;
+}
+.grid2{
+  display: flex;
+  flex-direction: row-reverse;
+  border-top: 1px solid;
+}
+.grid2-content{
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+.grid2-content h2{
+  font-weight: 800;
+  font-size: 30px;
+}
+.section2{
+  border-left: 1px solid;
+}
+.grid3{
+  display: flex;
+  flex-direction: row-reverse;
+  border-top: 1px solid;
+}
+.discover{
+  border-bottom: 1px solid;
+}
+.sec1{
+  border-bottom: 1px solid;
+}
+.sec2{
+  border-bottom: 1px solid;
+}
+.sec3{
+  border-bottom: 1px solid;
+}
+.sec4{
+  border-bottom: 1px solid;
+}
+.grid4{
+  background-color: rgb(128, 140, 253);
+  text-align: center;
+  padding: 10%;
+  border-bottom: 1px solid;
+}
+.grid4 h3{
+  font-size: 20px;
+  font-weight: 500;
+}
+.grid4 h2{
+  font-weight: 800;
+  font-size: 60px;
+}
+h1, h2, p{
+  padding: 20px;
+}
+.view{
+  background: none;
+  border: none;
+  padding: 10px;
+  margin: 30px;
+  
+}
+.view:hover{
+  background-color: black;
+  color: white;
+  border-radius: 7px;
+}
+.reserve{
+  padding: 10px;
+  border-radius: 7px;
+  border: none;
+}
+.reserve:hover{
+  background-color: black;
+  color: white;
+}
+.footer-logo{
+  display: flex;
+  justify-content: space-between;
+}
+.footer-logo h2{
+  font-size: 60px;
+}
+footer img{
+  width: 250px;
+}
+.foot-about{
+  display: flex;
+  justify-content: space-between;
+}
+.footer-content {
+    padding: 20px;
+    text-align: left;
+}
+
+.footer-content h2,
+.footer-content p {
+    padding: 10px;
+    margin: 0;
+}
+.socials a{
+  padding: 0 10px;
+  display: flex;
+  color: #000;
+  font-weight: 700;
+  font-size: 20px;
+}
+.opening{
+  padding: 10px;
+  font-weight: 700;
+}
+#btn1{
+  display: none;
+  background:none; 
+  border:none; 
+  cursor:pointer; 
+  font-size:24px;
+}
+.join{
+  border-top: 1px solid;
+  width: 100%;
+  font-size: 75px;
+  font-weight: 900;
+  padding: 20px;
+  text-align: center;
+  font-family: 'Anek Tamil';
+  background-color: white;
+}
+
+/* Fonts */
+.head1{
+  font-family: 'Anek Tamil';
+  font-weight: 900;
+  font-size: 60px;
+  text-align: center;
+}
+.grid1 h2{
+  font-family: 'Anek Tamil';
+  font-weight: 900;
+}
+p{
+  font-family: 'Anek Tamil';
+  font-size: 18px;
+  font-weight: 500;
+}
+h2{
+  font-family: 'Anek Tamil';
+  font-size: 30px;
+}
+.footer-content{
+  font-family: 'Anek Tamil';
+}
+.contact,
+.con{
+  font-weight: 800;
+}
+}
+
+
+/* DESKTOP VIEW */
+
+@media (min-width: 1280px) {
+  *{
+    padding: 0%;
+    margin: 0%;
+  }
+  hr{
+    display: none;
+  }
+
+.nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul{
+  list-style: none;
+  display: flex;
+}
+ul li{
+  padding: 20px;
+}
+ul li a{
+  text-decoration: none;
+  color: #000;
+}
+.plain{
+  transition: 0.5s ease;
+  color: #000;
+  font-weight: 500;
+}
+.plain a:hover{
+  color: rgb(130, 129, 129);
+}
+
+.color{
+  background-color: rgb(128, 141, 253);
+  border-radius: 8px;
+}
+
+.color:hover{
+  background-color: #000;
+  color: white;
+}
+.color a:hover{
+  color: white;
+}
+
+  header{
+  background-color: rgb(233, 236, 255);
+  padding: 20px;
+  border-bottom: 2px solid;
+  position: sticky;
+  top: 0;
+}
+.head{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+body{
+  background-color: rgb(233, 236, 255);
+}
+strong{
+  color: rgb(128, 141, 253);
+}
+.join{
+  padding: 20px;
+}
+.head1{
+  background-color: white;
+  padding: 20px;
+}
+.grid1 img{
+  width: 70%;
+  border-top: 2px solid;
+}
+.grid2 img{
+  width: 30%;
+}
+.grid3 img{
+  width: 70%;
+}
+.grid1 h2, p{
+  padding: 20px;
+}
+.about{
+  margin-left: 20px;
+  margin-bottom: 30px;
+  padding: 15px;
+  border: none;
+  background: none;
+}
+.about:hover{
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+}
+
+.grid1{
+  display: flex;
+  flex-direction: row;
+  min-height: 500px;
+  border-top: 1px solid;
+}
+
+.grid2{
+  display: flex;
+  flex-direction: row-reverse;
+  border-top: 1px solid;
+}
+.grid2 p{
+  margin-top: 250px;
+}
+.grid2-content{
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+.grid2-content h2{
+  font-weight: 800;
+  font-size: 30px;
+}
+.section2{
+  border-left: 1px solid;
+}
+.grid3{
+  display: flex;
+  flex-direction: row-reverse;
+  border-top: 1px solid;
+}
+.discover{
+  border-bottom: 1px solid;
+}
+.sec1{
+  border-bottom: 1px solid;
+}
+.sec2{
+  border-bottom: 1px solid;
+}
+.sec3{
+  border-bottom: 1px solid;
+}
+.sec4{
+  border-bottom: 1px solid;
+}
+.grid4{
+  background-color: rgb(128, 140, 253);
+  text-align: center;
+  padding: 10%;
+  border-bottom: 1px solid;
+}
+.grid4 h3{
+  font-size: 20px;
+  font-weight: 500;
+}
+.grid4 h2{
+  font-weight: 800;
+  font-size: 60px;
+}
+h1, h2, p{
+  padding: 20px;
+}
+.view{
+  background: none;
+  border: none;
+  padding: 10px;
+  margin: 30px;
+  
+}
+.view:hover{
+  background-color: black;
+  color: white;
+  border-radius: 7px;
+}
+.reserve{
+  padding: 10px;
+  border-radius: 7px;
+  border: none;
+}
+.reserve:hover{
+  background-color: black;
+  color: white;
+}
+.footer-logo{
+  display: flex;
+  justify-content: space-between;
+}
+.footer-logo h2{
+  font-size: 60px;
+}
+footer img{
+  width: 250px;
+}
+.foot-about{
+  display: flex;
+  justify-content: space-between;
+}
+.footer-content {
+    padding: 20px;
+    text-align: left;
+}
+
+.footer-content h2,
+.footer-content p {
+    padding: 10px;
+    margin: 0;
+}
+.socials a{
+  padding: 0 10px;
+  display: flex;
+  color: #000;
+  font-weight: 700;
+  font-size: 20px;
+}
+.opening{
+  padding: 10px;
+  font-weight: 700;
+}
+#btn1{
+  display: none;
+  background:none; 
+  border:none; 
+  cursor:pointer; 
+  font-size:24px;
+}
+.join{
+  border-top: 1px solid;
+  width: 100%;
+  font-size: 90px;
+  font-weight: 900;
+  padding: 20px;
+  text-align: left;
+  font-family: 'Anek Tamil';
+  background-color: white;
+}
+
+/* Fonts */
+.head1{
+  font-family: 'Anek Tamil';
+  font-weight: 900;
+  font-size: 90px;
+  text-align: center;
+}
+.grid1 h2{
+  font-family: 'Anek Tamil';
+  font-weight: 900;
+}
+p{
+  font-family: 'Anek Tamil';
+  font-size: 18px;
+  font-weight: 500;
+}
+h2{
+  font-family: 'Anek Tamil';
+  font-size: 30px;
+}
+.footer-content{
+  font-family: 'Anek Tamil';
+}
+.contact,
+.con{
+  font-weight: 800;
+}
+}
